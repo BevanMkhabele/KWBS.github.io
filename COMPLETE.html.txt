@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Completed</title>
+    <style>
+        body {
+            background: #87CEEB; /* Sky blue background color */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .tick-icon {
+            font-size: 60px;
+            color: green;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Completed</h1>
+    <div class="tick-icon">&#10004;</div> <!-- Checkmark (tick) icon -->
+</body>
+</html>
