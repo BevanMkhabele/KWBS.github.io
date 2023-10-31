@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Completed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            background: #87CEEB; /* Sky blue background color */
+            background: linear-gradient(to bottom, #87CEEB, #00BFFF);
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+            padding: 20px; /* Add padding for better mobile readability */
+        }
+
+        .checkmark {
+            font-size: 100px;
+            color: green;
         }
 
         h1 {
-            font-size: 24px;
+            font-size: 24pt;
             text-align: center;
         }
 
-        .tick-icon {
-            font-size: 60px;
-            color: green;
-            display: flex;
-            align-items: center;
+        p {
+            font-size: 18pt;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Registration Completed</h1>
-    <div class="tick-icon">&#10004;</div> <!-- Checkmark (tick) icon -->
+    <div class="checkmark">&#10004;</div>
+    <h1>Registration Complete</h1>
+    <p>Thank you for registering!</p>
 </body>
 </html>
