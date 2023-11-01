@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="checkmark">&#10004;</div>
+    <h1>Registration Complete</h1>
+    <p>Thank you for registering!</p>
+</body>
+</html>
