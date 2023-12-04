@@ -1,83 +1,140 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
     <style>
-        body {
-            background: linear-gradient(to bottom, #87CEEB, #00BFFF);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 20px; /* Add padding for better mobile readability */
-        }
-
-        h1 {
-            font-size: 24pt; /* Reduced font size for mobile */
-            text-align: center;
-            letter-spacing: -1px;
-            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Reduced shadow */
-            position: relative;
-        }
-
-        h1::after {
-            content: "";
-            display: block;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            height: 10px; /* Reduced height */
-            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
-        }
-
-        p {
-            font-size: 1em; /* Adjusted font size for mobile */
-            text-align: center;
-        }
-
-        .button {
-            background: linear-gradient(to bottom, blue, white);
-            padding: 10px 20px;
-            font-family: 'Aharoni', sans-serif;
-            font-size: 16pt; /* Reduced font size for mobile */
-            color: black;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer; /* Add a pointer cursor to indicate interactivity */
-            transition: background 0.3s; /* Add a smooth transition for button hover effect */
-        }
-
-        .button:hover {
-            background: linear-gradient(to bottom, white, blue); /* Change button background on hover */
-        }
-
-        .blue-text {
-            color: darkblue;
-        }
-
-        .black-text {
-            color: black;
-        }
-
-        .red-text {
-            color: red;
-        }
+      body {
+        font-family: arial;
+        margin: 0;
+        padding: 0;
+      }
+      .div1 {
+        display: inline-block;
+        margin-right: 35px;
+      }
+      .div2 {
+        display: inline-block;
+      }
+      .div3 {
+        display: inline-block;
+        margin-right: 35px;
+      }
+      .div4 {
+        display: inline-block;
+      }
+      .div5 {
+        display: inline-block;
+        margin-right: 35px;
+      }
+      .div6 {
+        display: inline-block;
+      }
+      .div7 {
+        display: inline-block;
+        margin-right: 35px;
+      }
+      .div8 {
+        display: inline-block;
+      }
+      .brace1 {
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+      .brace2 {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .r50 {
+        margin-left: 190px;
+      }
+      .r19k {
+        margin-left: 100px;
+      }
+      .main-div {
+        width: 470px;
+        padding:30px
+      }
+      .r195 {
+        margin-left: 200px;
+      }
+      .rOne {
+        margin-left: 125px;
+        color: limegreen;
+      }
+      .tf {
+        margin-left: 46px;
+      }
+      .money {
+        font-weight: bold;
+      }
+      .date {
+        color: #a9a9a9;
+      }
+      /* Added style for lines between rows */
+      .row {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      }
     </style>
-</head>
-<body>
-    <h1><span class="blue-text">Kids</span><span class="black-text">With</span><span class="red-text">Bursaries</span></h1>
-    <p>The "Kids with Bursaries" program is dedicated to addressing economic youth unemployment by simplifying the process of accessing and applying for bursaries offered by South African companies.</p>
-    <a href="credentials.html" class="button" id="registerButton">Click to Register</a>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="row">
+        <div class="div1">
+          <p>PayShap Ext Debit</p>
+          <p class="date">Today</p>
+        </div>
+        <div class="div2">
+          <p class="tf">
+            <span class="braces">(</span>2,50<span class="brace2">)</span>b
+          </p>
+          <p class="money">
+            <span class="r50">-R50,00</span>
+          </p>
+        </div>
+      </div>
 
-    <script>
-        // JavaScript for button click event
-        document.getElementById("registerButton").addEventListener("click", function() {
-            // Redirect to "credentials.html" when the button is clicked
-            window.location.href = "credentials.html";
-        });
-    </script>
-</body>
+      <div class="row">
+        <div class="div3">
+          <p>ADMIN CHARGE</p>
+          <p class="date">Today</p>
+        </div>
+        <div class="div4">
+          <p class="money">
+            <span class="r195">-R195,50</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="div5">
+          <p>ACB CREDIT EO23K230H</p>
+          <p class="date">Today</p>
+        </div>
+        <div class="div6">
+          <p>
+            <span class="braces">(</span>2,50<span class="brace2">)</span>b
+          </p>
+          <p class="money">
+            <span class="rOne">R1 190,50,00</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="div7">
+          <p>PayShap Ext Credit B Mhlongo</p>
+          <p class="date">Today</p>
+        </div>
+        <div class="div8">
+          <p>
+            <span class="brace1">(</span>300,00<span class="brace2">)</span>CARD
+          </p>
+          <p class="money">
+            <span class="r19k">-R19 195,50</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
