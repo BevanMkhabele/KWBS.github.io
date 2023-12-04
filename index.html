@@ -55,7 +55,7 @@
     }
 
     .r50 {
-      margin-left: 190px;
+      margin-left: 205px;
     }
 
     .r19k {
@@ -71,7 +71,7 @@
     }
 
     .rOne {
-      margin-left: 125px;
+      margin-left: 100px;
       color: limegreen;
     }
 
@@ -85,6 +85,12 @@
 
     .date {
       color: #a9a9a9;
+      text-align: left; /* Align dates to the left */
+    }
+
+    .title,
+    .title1 {
+      text-align: left; /* Align titles to the left */
     }
 
     /* Added style for lines between rows */
@@ -92,6 +98,11 @@
       border-bottom: 1px solid #ddd;
       padding-bottom: 10px;
       margin-bottom: 10px;
+      padding-right: 0;
+      text-align: right; /* Align money to the right side */
+    }
+    .brackets{
+    margin-right:40px
     }
   </style>
 </head>
@@ -99,12 +110,13 @@
   <div class="main-div">
     <div class="row">
       <div class="div1">
-        <p>PayShap Ext Debit</p>
+        <p class="title">PayShap Ext Debit</p>
         <p class="date">Today</p>
       </div>
       <div class="div2">
         <p class="tf">
-          <span class="braces">(</span> 2,50<span class="brace2">)</span>b
+          <div class="brackets"
+               <span class="braces">(</span> 2,50<span class="brace2">)</span>b</div>
         </p>
         <p class="money">
           <span class="r50">-R50,00</span>
@@ -114,12 +126,15 @@
 
     <div class="row">
       <div class="div5">
-        <p>RTC 160F7AD1AB Betway337</p>
+        <p class="title">RTC 160F7AD1AB Betway337</p>
         <p class="date">Today</p>
       </div>
       <div class="div6">
         <p>
-          <span class="braces">(</span> 250,50<span class="brace2">)</span>b
+          <div class="brackets">
+            <span class="braces">(</span> 250,50<span         					class="brace2">)</span>b
+          </div>
+          
         </p>
         <p class="money">
           <span class="rOne">R31 190,00</span>
@@ -129,7 +144,7 @@
 
     <div class="row">
       <div class="div3">
-        <p>ADMIN CHARGE</p>
+        <p class="title1">ADMIN CHARGE</p>
         <p class="date">Friday, 01 Dec 2023</p>
       </div>
       <div class="div4">
@@ -141,12 +156,13 @@
 
     <div class="row">
       <div class="div7">
-        <p>PayShap Ext Credit B Mkhabele</p>
+        <p class="title">PayShap Ext Credit B Mkhabele</p>
         <p class="date">Wednesday, 29 Nov 2023</p>
       </div>
       <div class="div8">
         <p>
-          <span class="brace1">(</span>300,00<span class="brace2">)</span>CARD
+          <div class="brackets">
+            <span class="brace1">(</span>300,00<span class="brace2">)</span>CARD</div>
         </p>
         <p class="money">
           <span class="r19k">-R17 195,50</span>
